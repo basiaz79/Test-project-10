@@ -96,4 +96,4 @@ function cleanCountry() {
 
 function cleanListCountry() {
     listCountry.innerHTML = '';
-};
+}
