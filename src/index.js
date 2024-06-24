@@ -49,8 +49,8 @@ function crateDataMarkup(data) {
         return `
                 <li class="country_item">
                     <div class="country_flag-name-container">
-                        ing src="${flags.svg}" alt="${name.common}" height="30px"/></p>
-                        <h2 class="country_title">${name.official}</h2>
+                        ing src="${flags.svg}" alt="${country.common}" height="30px"/></p>
+                        <h2 class="country_title">${country.official}</h2>
                     </div>
                     <p><b>Capital:<b> ${capital}
                     <p><b>Population:</b> ${population}</p>
